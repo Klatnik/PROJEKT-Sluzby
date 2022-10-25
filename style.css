@@ -1,0 +1,58 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+
+  
+
+/*
+Breakpointy:
+    Mobil - do 640px
+    Tablet - 640px a víc
+    PC - 1100px a víc   */
+
+body {
+    background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+    margin: 0 auto;
+}
+
+.cestovatel {
+    width: 350px;
+    margin: 60px 75px; 
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.delitko {
+    fill: #407BFF;
+}
+
+p {
+    font-weight: 300;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tlacitko {
+    display: ;
+    color: white;
+    border-radius: 20px;
+    padding: 11px 30px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.jedna {
+    background-color: #407BFF;
+}
+
+.dva {
+    background-color: #8B8B8B;
+}
