@@ -15,7 +15,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
     margin: 0 auto;
+    text-align: center;
 }
+
+.kontejner {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 
 .cestovatel {
     width: 350px;
@@ -46,6 +53,7 @@ a {
     padding: 11px 30px;
     font-weight: 400;
     font-size: 14px;
+
 }
 
 .jedna {
@@ -54,10 +62,12 @@ a {
 
 .dva {
     background-color: #8B8B8B;
+    margin-bottom: 70px;
 }
 
 h2 {
     font-size: 16px;
+    margin-top: 70px;
 }
 
 .ikonka {
@@ -66,10 +76,12 @@ h2 {
     border-radius: 10px;
     margin: 20px;
     box-shadow: 0px 4px 6px #407BFF1F;
+    
 }
 
 .ikonka p {
     font-size: 13px;
+    text-align: center;
 }
 
 .ikonka img {
