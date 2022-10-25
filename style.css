@@ -10,6 +10,8 @@ Breakpointy:
     Tablet - 640px a víc
     PC - 1100px a víc   */
 
+
+
 body {
     background-color: #FAFAFA;
     font-family: 'Montserrat', sans-serif;
@@ -19,7 +21,7 @@ body {
 }
 
 .kontejner {
-    max-width: 500px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -45,6 +47,7 @@ p {
 
 a {
     text-decoration: none;
+    
 }
 
 .tlacitko {
@@ -58,6 +61,7 @@ a {
 
 .jedna {
     background-color: #407BFF;
+    margin: 20px
 }
 
 .dva {
@@ -76,14 +80,18 @@ h2 {
     border-radius: 10px;
     margin: 20px;
     box-shadow: 0px 4px 6px #407BFF1F;
+    justify-content: center;
     
 }
 
 .ikonka p {
     font-size: 13px;
-    text-align: center;
 }
 
 .ikonka img {
     margin-right: 30px;
+    flex-grow: 0;
 }
+
+
+
