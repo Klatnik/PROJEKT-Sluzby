@@ -50,23 +50,35 @@ a {
     
 }
 
+.tlacitka {
+    
+}
+
 .tlacitko {
     color: white;
     border-radius: 20px;
     padding: 11px 30px;
     font-weight: 400;
     font-size: 14px;
+    display: block;
+    margin: 10px auto;
+    
+
+
 
 }
 
 .jedna {
-    background-color: #407BFF;
-    margin: 20px
+    background-color: #407BFF;   
+    max-width: 195px;
+
 }
 
 .dva {
     background-color: #8B8B8B;
+    max-width: 230px;
     margin-bottom: 70px;
+
 }
 
 h2 {
