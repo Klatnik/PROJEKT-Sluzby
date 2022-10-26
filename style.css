@@ -111,6 +111,7 @@ h2 {
 
     .ikonka {
         display: block;
+        margin: 10px;
     }
 
     .ikonka img {
@@ -120,5 +121,85 @@ h2 {
     .boxik {
         display: flex;
         justify-content: center;
+    }
+
+    .cestovatel {
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 1100px) { 
+    .prvni {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: left;
+    }
+
+    .travels {
+        text-align: left;
+        max-width: 490px;
+        align-self: center;
+       
+        
+    }
+
+    .tlacitka {
+        justify-content: left;
+    }
+    .jedna {
+        margin-left: 0;
+    }
+
+    .cestovatel  {
+        flex-basis: 100%;
+        margin-top: 60px;
+        margin-left: 95px;
+        margin-right: 0px;
+        
+    }
+
+    .kontejner {
+        max-width: 1040px;
+    }
+
+    .druhy {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    .sluzby {
+        text-align: left;
+        max-width: 430px;
+        margin-left: 60px;
+        align-self: center;
+        
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+    .boxik {
+        max-width: 550px;
+
+    }
+
+    .ikonka {
+        flex-grow: 1;
+        justify-content: flex-end;
+        margin: 10px;
+    }
+
+    .treti {
+        display: flex;
+        margin-top: 80px;
+        margin-bottom: 60px
+    }
+
+    .delegati {
+        text-align: left;
+        max-width: 430px;
+        margin-right: 60px;
+        align-self: center;
     }
 }
