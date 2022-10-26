@@ -50,9 +50,7 @@ a {
     
 }
 
-.tlacitka {
-    
-}
+
 
 .tlacitko {
     color: white;
@@ -62,10 +60,6 @@ a {
     font-size: 14px;
     display: block;
     margin: 10px auto;
-    
-
-
-
 }
 
 .jedna {
@@ -106,4 +100,25 @@ h2 {
 }
 
 
+@media screen and (min-width: 640px) {
+    .tlacitka {
+        display: flex;
+        justify-content: center;
+        }
+    .tlacitko {
+        margin: 10px;
+    }
 
+    .ikonka {
+        display: block;
+    }
+
+    .ikonka img {
+        margin-right: 0;
+        }
+
+    .boxik {
+        display: flex;
+        justify-content: center;
+    }
+}
